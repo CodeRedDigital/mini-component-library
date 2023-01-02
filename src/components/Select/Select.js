@@ -35,6 +35,7 @@ position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
+  appearance: none;
   `
   
 const Presentational = styled.div`
