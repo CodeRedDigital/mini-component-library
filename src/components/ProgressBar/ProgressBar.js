@@ -44,7 +44,8 @@ const ProgressBar = ({ value, size }) => {
         '--width': value + '%',
         '--height' : styles.height + 'px',
         '--radius' : styles.radius + 'px',
-        '--largeRadius': (value === 100 ? 4 : (value === 99 ? 3 : (value === 98 ? 2 : 0))) + 'px' }} />
+        '--largeRadius': (value === 100 ? 4 : (value === 99 ? 3 : (value === 98 ? 2 : 0))) + 'px' 
+      }} />
     </Wrapper>
   );
 };
